@@ -1,0 +1,229 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+
+}
+
+
+.wrappercon {
+    display: flex;
+    justify-content: space-between;
+    width: 69%;
+    margin: auto;
+
+}
+
+
+.left {
+    background-color: #F1F1F1;
+    width: 30%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: sticky;
+    height: 100vh;
+    padding: 5px 0px 0px 10px;
+   
+}
+
+.checkin {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+
+.checkout {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+
+.adu {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+
+.rentext {
+    margin-top: 20px;
+    margin-bottom: 25px
+}
+
+.formgroup{
+margin-top: 25px;
+margin-bottom: 10px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.right {
+
+    /* background-color: blue; */
+    width: 79.5%;
+    padding: 12px;
+    box-shadow: 2px 3px 3px #ccc;
+    border: solid 1px #ccc;
+    overflow-y: scroll;
+    position: sticky;
+    height: 100vh;
+}
+
+.my-form {
+    padding-left: 8px;
+
+}
+
+.form-control {
+    width: 80%;
+    padding: 15px;
+}
+
+.search {
+
+    background-color: green;
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 8px;
+    padding: 8px;
+    border: none;
+    font-size: 23px;
+}
+
+.search a {
+    text-decoration: none;
+
+}
+
+.search:hover {
+    background-color: #ccc;
+
+}
+
+.sub {
+    /* background-color: #CCC; */
+    width: 98%;
+    margin-top: 10px;
+    margin-left: 8px;
+    padding: 20px;
+    border: none;
+    font-size: 23px;
+}
+
+
+.sub a {
+
+    text-decoration: none;
+}
+
+.sub:hover {
+    background-color: #CCC;
+}
+
+.ment {
+    color: green;
+    margin-bottom: 15px;
+}
+
+.myflex2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.din {
+    width: 24%;
+}
+
+
+.myborder-bottom1 {
+    border-bottom: solid 1px #ccc;
+    margin-top: 8px;
+}
+
+.third-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 58%;
+}
+
+.fourth-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.subsc {
+    background-color: green;
+    width: 22%;
+    padding: 8px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    border: none;
+}
+
+.subsc:hover {
+
+    background-color: #ccc;
+}
+
+.form-control2 {
+
+    width: 98%;
+    padding: 8px;
+}
+
+.holder {
+    margin-bottom: 10px;
+}
+
+.btn {
+
+    width: 22%;
+    padding: 8px;
+    background-color: green;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.btn:hover {
+    background-color: #ccc;
+}
+
+.lotxt{
+font-size: 20px;
+}
+
+.footer{
+    background-color:white;
+    width: 48%;
+    text-align: center;
+    font-size: 22px;
+    /* height: 20px; */
+    margin-top: 30px;
+    bottom: 0;
+    color: red;
+    position: fixed;
+}
+
+/* responsive for tablet  768*/
+@media (max-width: 768px) {
+  .wrappercon{
+    /* flex-direction:column; */
+    /* or you can say */
+    display: block;
+  } 
+  .left{
+    background-color: yellow;
+    width: 100%;
+  } 
+  .right{
+    background-color: purple;
+    width: 100%;
+  }
+}
+
